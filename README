@@ -1,0 +1,11 @@
+This code implements a simple stack based calculator in C++. If you have a working make installation and you are using G++ as your C++ compiler then simply type "make" to build the "calc" program. Otherwise, compile the single file "calc.cpp" with you preferred C++11 compliant C++ compiler.
+
+To use calc you must input a valid expression in RPN as command line parameters separated by spaces. So for example
+
+./calc 1 1 +
+
+will print the answer "2". and
+
+./calc 1 1 + 8 x
+
+will print "16"
